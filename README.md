@@ -4,7 +4,7 @@ A plugin to drop connection of a certain container to a certain IP address with 
 
 ## Installation
 
-Put the `run.sh` into `~/.kittypaws/plugins/dropper` folder.
+Put the `main.py` into `~/.kittypaws/plugins/dropper` folder.
 
 ## Example config
 
@@ -22,3 +22,5 @@ plugins:
 `target` - container in which disconnection should be simulated\
 `ip` - which address to disconnect\
 `unavailable_seconds` - amount of time the `ip` will be unavailable for the `target`
+
+The rest is described in [kittypaws](https://github.com/subatiq/kittypaws) README.
