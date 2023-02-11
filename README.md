@@ -11,7 +11,7 @@ Put the `run.sh` into `~/.kittypaws/plugins/dropper` folder.
 ```yaml
 plugins:
 - dropper:
-    target: mmcv_traffic-npd_1
+    target: container-name
     ip: 192.168.10.10
     unavailable_seconds: 1800
     frequency: random
